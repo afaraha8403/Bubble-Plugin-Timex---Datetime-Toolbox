@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+    "datetime-round": "^1.1.0",
+    "moment": "^2.29.1"
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "caption": "Load configuration from iCal",
+    "fields": {
+        "ADE": {
+            "caption": "This action loads an iCal configuration.  For example \"DTSTART:20120201T093000Z\\nRRULE:FREQ=WEEKLY;INTERVAL=5;UNTIL=20130130T230000Z;BYDAY=MO,FR\"",
+            "editor": "Label",
+            "name": "this_action_loads_an_ical_configuration.__for_example_\"dtstart:20120201t093000z\\nrrule:freq=weekly;interval=5;until=20130130t230000z;byday=mo,fr\"",
+            "rank": 0
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "calls": {
+        "ACX": {
+            "initialized": true,
+            "method": "get",
+            "name": "🛡️ Recurring Dates Schema",
+            "publish_as": "data",
+            "rank": 0,
+            "ret_value": "api.1551365877078x445243110416449540.plugin_api.ACX",
+            "should_reinitialize": false,
+            "types": "{\"plugin_api.ACX\":{\"caption\":\"🛡️ Recurring Dates Schema\",\"fields\":{\"_p_id\":{\"ret_value\":\"text\",\"caption\":\"id\",\"sample_value\":\"string\",\"path\":[\"id\"]},\"_p_configuration.frequency\":{\"ret_value\":\"text\",\"caption\":\"configuration frequency\",\"sample_value\":\"string\",\"path\":[\"configuration\",\"frequency\"]},\"_p_configuration.starts_on\":{\"ret_value\":\"date\",\"caption\":\"configuration starts_on\",\"sample_value\":\"date\",\"path\":[\"configuration\",\"starts_on\"]},\"_p_configuration.interval\":{\"ret_value\":\"number\",\"caption\":\"configuration interval\",\"sample_value\":1,\"path\":[\"configuration\",\"interval\"]},\"_p_configuration.week_start_day\":{\"ret_value\":\"text\",\"caption\":\"configuration week_start_day\",\"sample_value\":\"string\",\"path\":[\"configuration\",\"week_start_day\"]},\"_p_configuration.count\":{\"ret_value\":\"number\",\"caption\":\"configuration count\",\"sample_value\":1,\"path\":[\"configuration\",\"count\"]},\"_p_configuration.until\":{\"ret_value\":\"date\",\"caption\":\"configuration until\",\"sample_value\":\"date\",\"path\":[\"configuration\",\"until\"]},\"_p_configuration.by_step_position\":{\"ret_value\":\"text\",\"caption\":\"configuration by_step_position\",\"sample_value\":\"string\",\"path\":[\"configuration\",\"by_step_position\"]},\"_p_configuration.by_month\":{\"ret_value\":\"text\",\"caption\":\"configuration by_month\",\"sample_value\":\"string\",\"path\":[\"configuration\",\"by_month\"]},\"_p_configuration.by_month_day\":{\"ret_value\":\"text\",\"caption\":\"configuration by_month_day\",\"sample_value\":\"string\",\"path\":[\"configuration\",\"by_month_day\"]},\"_p_configuration.by_year_day\":{\"ret_value\":\"text\",\"caption\":\"configuration by_year_day\",\"sample_value\":\"string\",\"path\":[\"configuration\",\"by_year_day\"]},\"_p_configuration.by_week_no\":{\"ret_value\":\"text\",\"caption\":\"configuration by_week_no\",\"sample_value\":\"string\",\"path\":[\"configuration\",\"by_week_no\"]},\"_p_configuration.by_week_day\":{\"ret_value\":\"text\",\"caption\":\"configuration by_week_day\",\"sample_value\":\"string\",\"path\":[\"configuration\",\"by_week_day\"]},\"_p_configuration.by_hour\":{\"ret_value\":\"text\",\"caption\":\"configuration by_hour\",\"sample_value\":\"string\",\"path\":[\"configuration\",\"by_hour\"]},\"_p_configuration.by_minute\":{\"ret_value\":\"text\",\"caption\":\"configuration by_minute\",\"sample_value\":\"string\",\"path\":[\"configuration\",\"by_minute\"]},\"_p_configuration.by_second\":{\"ret_value\":\"text\",\"caption\":\"configuration by_second\",\"sample_value\":\"string\",\"path\":[\"configuration\",\"by_second\"]},\"_p_ical\":{\"ret_value\":\"text\",\"caption\":\"ical\",\"sample_value\":\"string\",\"path\":[\"ical\"]},\"_p_readable\":{\"ret_value\":\"text\",\"caption\":\"readable\",\"sample_value\":\"string\",\"path\":[\"readable\"]}}}}",
+            "url": "#"
+        }
+    },
+    "human": "Date & Time Toolkit"
+}

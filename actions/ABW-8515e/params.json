@@ -1,0 +1,79 @@
+{
+    "category": "data (things)",
+    "display": "Split Date Ranges",
+    "fields": {
+        "ABX": {
+            "caption": "Day Start",
+            "doc": "The start date which is the first date",
+            "editor": "DynamicValue",
+            "name": "day_start",
+            "rank": 1,
+            "value": "date"
+        },
+        "ABY": {
+            "caption": "Day End",
+            "doc": "The end date which is the last date",
+            "editor": "DynamicValue",
+            "name": "day_end",
+            "rank": 2,
+            "value": "date"
+        },
+        "ABZ": {
+            "caption": "Step Units",
+            "default_val": "minutes",
+            "doc": "The units used for the steps",
+            "editor": "Dropdown",
+            "name": "step_units",
+            "options": "years,quarters,months,isoWeek,weeks,days,hours,minutes,seconds",
+            "rank": 3
+        },
+        "ABa": {
+            "caption": "Steps",
+            "default_val": 30,
+            "doc": "How many weeks, days, hours or minutes to chunk by",
+            "editor": "DynamicValue",
+            "name": "steps",
+            "rank": 4,
+            "value": "number"
+        },
+        "ABb": {
+            "caption": "Range Option",
+            "default_val": "Previous Date/Time",
+            "doc": "Determines how the required output for the ranges",
+            "editor": "Dropdown",
+            "name": "range_option",
+            "options": "Start Date/Time,End Date/Time,Previous Date/Time",
+            "rank": 5
+        },
+        "ABf": {
+            "caption": "Date & Time Toolkit",
+            "editor": "Label",
+            "name": "date_&_time_toolkit",
+            "rank": 0
+        }
+    },
+    "return_value": {
+        "ABc": {
+            "caption": "Date List",
+            "is_list": true,
+            "name": "date_list",
+            "rank": 0,
+            "value": "date"
+        },
+        "ABd": {
+            "caption": "Date List Ranges",
+            "is_list": true,
+            "name": "date_list_ranges",
+            "rank": 1,
+            "value": "date_range"
+        },
+        "ABe": {
+            "caption": "Count",
+            "name": "count",
+            "rank": 2,
+            "value": "number"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

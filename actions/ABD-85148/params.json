@@ -1,0 +1,38 @@
+{
+    "category": "data (things)",
+    "display": "Next Day of Week",
+    "fields": {
+        "ABE": {
+            "caption": "Day of the week",
+            "default_val": 5,
+            "doc": "The next occurance of the day as a number.  For example friday as \"5\"",
+            "editor": "DynamicValue",
+            "name": "day_of_the_week",
+            "rank": 1,
+            "value": "number"
+        },
+        "ABM": {
+            "caption": "Starting Date ISO",
+            "doc": "As a simplified standard ISO",
+            "editor": "DynamicValue",
+            "name": "starting_date_iso",
+            "rank": 2,
+            "value": "text"
+        },
+        "ABh": {
+            "caption": "Date & Time Toolkit",
+            "editor": "Label",
+            "name": "date_&_time_toolkit",
+            "rank": 0
+        }
+    },
+    "return_value": {
+        "ABG": {
+            "caption": "Next Date",
+            "name": "next_date",
+            "rank": 0,
+            "value": "date"
+        }
+    },
+    "type": "server_side"
+}

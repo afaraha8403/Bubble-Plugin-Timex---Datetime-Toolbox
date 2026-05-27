@@ -1,0 +1,18 @@
+{
+    "categories": {
+        "0": "technical",
+        "1": "data (things)",
+        "2": "web scraping",
+        "3": "containers"
+    },
+    "data_tracked": false,
+    "demo_page": "https://upstarters-showcase.bubbleapps.io/version-test/plugin-datetime-toolkit",
+    "description": "A collection of useful elements and actions that are made to manipulate and extract datetime.  Get date ranges convert milliseconds and generate recurring dates",
+    "image": "//s3.amazonaws.com/appforest_uf/f1551454055334x763967909853771000/watch.svg",
+    "instructions": "",
+    "license": "open_source",
+    "link": "https://upstarters-showcase.bubbleapps.io/version-test/plugin-datetime-toolkit",
+    "name": "Date & Time Toolkit",
+    "plugin_instructions": "A growing collection of time tools.  Install and watch for updates.",
+    "sa_node_version": 18
+}

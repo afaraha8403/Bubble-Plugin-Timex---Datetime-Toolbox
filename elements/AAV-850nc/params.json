@@ -1,11 +1,11 @@
 {
-    "add_is_visible": false,
+    "add_is_visible": true,
     "category": "visual elements",
     "default_dim": {
         "height": 200,
         "width": 200
     },
-    "display": "Timex-List Dates",
+    "display": "List Dates",
     "edit_mode_image": "//s3.amazonaws.com/appforest_uf/f1551483832226x179663775991137250/calendar.svg",
     "events": {
         "AAl": {
@@ -102,6 +102,7 @@
     "states": {
         "AAe": {
             "caption": "Date Results",
+            "doc": "The date results",
             "initialization_code": {
                 "fn": "function(properties, context) {\n\n\n\n}"
             },
@@ -111,6 +112,7 @@
         },
         "AAf": {
             "caption": "Range Results",
+            "doc": "The date range results",
             "initialization_code": {
                 "fn": "function(properties, context) {\n\n\n\n}"
             },
@@ -120,6 +122,7 @@
         },
         "AAg": {
             "caption": "Count",
+            "doc": "the number of results",
             "initialization_code": {
                 "fn": "function(properties, context) {\n\n\n\n}"
             },

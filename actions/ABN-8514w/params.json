@@ -1,0 +1,63 @@
+{
+    "category": "plugins",
+    "display": "Round Time",
+    "fields": {
+        "ABO": {
+            "caption": "Date to round",
+            "doc": "The date you want to round with",
+            "editor": "DynamicValue",
+            "name": "date_to_round",
+            "rank": 2,
+            "value": "date"
+        },
+        "ABP": {
+            "caption": "Round to X",
+            "default_val": 15,
+            "doc": "Maximum is 60.  Example 60 minutes, 1 hour, 15 seconds",
+            "editor": "DynamicValue",
+            "name": "round_to_x",
+            "rank": 3,
+            "value": "number"
+        },
+        "ABR": {
+            "caption": "Round for",
+            "default_val": "minutes",
+            "doc": "Round for something like minutes, hours, seconds",
+            "editor": "Dropdown",
+            "name": "round_for",
+            "options": "minutes,hours,seconds",
+            "rank": 4
+        },
+        "ABS": {
+            "caption": "This action rounds a date/time value to the closest settings below",
+            "editor": "Label",
+            "name": "this_action_rounds_a_date/time_value_to_the_closest_settings_below",
+            "rank": 1
+        },
+        "ABT": {
+            "caption": "Round to",
+            "default_val": "ceil",
+            "doc": "Round up or down",
+            "editor": "Dropdown",
+            "name": "round_to",
+            "options": "floor,ceil",
+            "rank": 5
+        },
+        "ABg": {
+            "caption": "Date & Time Toolkit",
+            "editor": "Label",
+            "name": "date_&_time_toolkit",
+            "rank": 0
+        }
+    },
+    "return_value": {
+        "ABQ": {
+            "caption": "Rounded Date",
+            "name": "rounded_date",
+            "rank": 0,
+            "value": "date"
+        }
+    },
+    "type": "server_side",
+    "use_packages": true
+}

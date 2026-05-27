@@ -1,0 +1,6 @@
+{
+    "dependencies": {
+        "moment-range": "^4.0.2",
+        "moment": "^2.29.1"
+    }
+}

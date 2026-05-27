@@ -1,0 +1,54 @@
+{
+    "category": "plugins",
+    "display": "Convert Decimal to Time",
+    "fields": {
+        "AAn": {
+            "caption": "This action converts decimal hours notation to readable hours",
+            "editor": "Label",
+            "name": "this_action_converts_decimal_hours_notation_to_readable_hours",
+            "rank": 1
+        },
+        "AAo": {
+            "caption": "Decimal Hours",
+            "default_val": 0,
+            "doc": "The hours represented in decimal hours for example 1.5 hours",
+            "editor": "DynamicValue",
+            "name": "decimal_hours",
+            "rank": 2,
+            "value": "number"
+        },
+        "ABj": {
+            "caption": "Date & Time Toolkit",
+            "editor": "Label",
+            "name": "date_&_time_toolkit",
+            "rank": 0
+        }
+    },
+    "return_value": {
+        "AAq": {
+            "caption": "Minutes",
+            "name": "minutes",
+            "rank": 0,
+            "value": "number"
+        },
+        "AAr": {
+            "caption": "Hours",
+            "name": "hours",
+            "rank": 1,
+            "value": "number"
+        },
+        "AAs": {
+            "caption": "Days",
+            "name": "days",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAv": {
+            "caption": "Human readable",
+            "name": "human_readable",
+            "rank": 3,
+            "value": "text"
+        }
+    },
+    "type": "server_side"
+}

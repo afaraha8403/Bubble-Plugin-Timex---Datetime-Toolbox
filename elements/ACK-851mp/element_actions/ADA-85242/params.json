@@ -1,0 +1,11 @@
+{
+    "caption": "Load configuration",
+    "fields": {
+        "ADB": {
+            "caption": "This action loads a configuration to be used",
+            "editor": "Label",
+            "name": "this_action_loads_a_configuration_to_be_used",
+            "rank": 0
+        }
+    }
+}

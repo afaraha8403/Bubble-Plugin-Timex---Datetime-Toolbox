@@ -1,0 +1,31 @@
+{
+    "caption": "Generate date occurrences",
+    "doc": "",
+    "fields": {
+        "ACs": {
+            "caption": "Gets all date occurrences of dates from a rule",
+            "editor": "Label",
+            "name": "gets_all_occurrences_of_dates_from_a_rule",
+            "rank": 0
+        },
+        "ACt": {
+            "caption": "Rule ID",
+            "doc": "Optional.  Specify the rule ID or leave blank to get the first rule added",
+            "editor": "DynamicValue",
+            "name": "rule_id",
+            "optional": true,
+            "rank": 1,
+            "value": "text"
+        },
+        "ADN": {
+            "caption": "UTC",
+            "default_val": false,
+            "doc": "If set to false the browser's time-zone will be used else all outputs are in UTC zero",
+            "editor": "DynamicValue",
+            "name": "browser_timezone",
+            "optional": false,
+            "rank": 2,
+            "value": "boolean"
+        }
+    }
+}

@@ -1,0 +1,81 @@
+{
+    "add_is_visible": true,
+    "category": "visual elements",
+    "default_dim": {
+        "height": 200,
+        "width": 400
+    },
+    "display": "Recurring Dates (BETA)",
+    "events": {
+        "ACM": {
+            "caption": "Ready",
+            "doc": "",
+            "name": "ready"
+        },
+        "ACv": {
+            "caption": "Occurrences Loaded",
+            "name": "occurrences_loaded"
+        },
+        "ADI": {
+            "caption": "Configuration Loaded",
+            "name": "configuration_loaded"
+        }
+    },
+    "fields": {
+        "ACU": {
+            "caption": "Please use associate workflow actions to generate a list of recurring dates",
+            "editor": "Label",
+            "name": "info",
+            "rank": 0
+        },
+        "ACW": {
+            "caption": "Disable Cache",
+            "default_val": true,
+            "doc": "Set to true to disable caching of results. If you will use the same rrule instance multiple times, enabling caching will improve the performance considerably. Enabled by default.",
+            "editor": "Checkbox",
+            "name": "disable_cache",
+            "rank": 2
+        },
+        "ACw": {
+            "caption": "Data Schema",
+            "doc": "Please set this to \"🛡️ Recurring Dates Schema (Date & Time Toolkit)\"",
+            "editor": "custom_type",
+            "name": "data_schema",
+            "rank": 1
+        }
+    },
+    "has_reset_fn": true,
+    "icon": "ion-ios-calendar-outline",
+    "property_applications": {
+        "MinWidth": true,
+        "resizable": true
+    },
+    "states": {
+        "ACL": {
+            "caption": "Ready",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n    return false\n\n\n}"
+            },
+            "name": "ready",
+            "value": "boolean"
+        },
+        "ACy": {
+            "caption": "Configurations",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "configurations",
+            "value": "custom_data_ACw"
+        },
+        "ACz": {
+            "caption": "Occurrences",
+            "initialization_code": {
+                "fn": "function(properties, context) {\n\n\n\n}"
+            },
+            "is_list": true,
+            "name": "occurrences",
+            "value": "date"
+        }
+    }
+}

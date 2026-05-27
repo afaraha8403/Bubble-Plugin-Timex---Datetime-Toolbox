@@ -1,5 +1,34 @@
 {
+    "assets": {
+        "ACC": {
+            "name": "rrule.min.js",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1651788989685x112697564374256270/rrule.min.js"
+        },
+        "ADL": {
+            "name": "watch-grey",
+            "url": "//dd7tel2830j4w.cloudfront.net/f1657909891733x252060774418280580/watch-grey.svg"
+        }
+    },
     "dependencies": {
+        "plugin_api_version": "4",
         "use_jquery": true
+    },
+    "shared_keys": {
+        "ACE": {
+            "caption": "Verbose Logging",
+            "type": "client_safe"
+        },
+        "ACF": {
+            "caption": "Retry Every (ms)",
+            "type": "client_safe"
+        },
+        "ACG": {
+            "caption": "No. of Retries",
+            "type": "client_safe"
+        },
+        "ACH": {
+            "caption": "Exponential Delay",
+            "type": "client_safe"
+        }
     }
 }

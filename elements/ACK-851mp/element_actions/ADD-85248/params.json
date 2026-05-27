@@ -1,0 +1,11 @@
+{
+    "caption": "Load configuration from human-friendly",
+    "fields": {
+        "ADF": {
+            "caption": "This action loads a human friendly configuration.  For example \"every 5 weeks on Monday, Friday until January 31, 2013\"",
+            "editor": "Label",
+            "name": "this_action_loads_a_human_friendly_configuration.__for_example_\"every_5_weeks_on_monday,_friday_until_january_31,_2013\"",
+            "rank": 0
+        }
+    }
+}

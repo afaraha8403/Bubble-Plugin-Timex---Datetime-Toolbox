@@ -1,0 +1,150 @@
+{
+    "caption": "Load configuration",
+    "doc": "Creates a rules that is used as a configuration",
+    "fields": {
+        "ACZ": {
+            "caption": "Frequency",
+            "doc": "One of the following constants. \"yearly, monthly, weekly, daily, hourly, minutely, secondly\"",
+            "editor": "DynamicValue",
+            "name": "frequency",
+            "rank": 1,
+            "value": "text"
+        },
+        "ACa": {
+            "caption": "Starts On",
+            "doc": "The recurrence start. Besides being the base for the recurrence, missing parameters in the final recurrence instances will also be extracted from this date. If not given, new Date will be used instead",
+            "editor": "DynamicValue",
+            "name": "starts_on",
+            "optional": true,
+            "rank": 2,
+            "value": "date"
+        },
+        "ACb": {
+            "caption": "Interval",
+            "doc": "The interval between each freq iteration. For example, when using RRule.YEARLY, an interval of 2 means once every two years, but with RRule.HOURLY, it means once every two hours. The default interval is 1.",
+            "editor": "DynamicValue",
+            "name": "interval",
+            "optional": true,
+            "rank": 3,
+            "value": "number"
+        },
+        "ACc": {
+            "caption": "Week Start Day",
+            "doc": "The week start day. Must be one of the following \"monday, tuesday, wednesday, thursday, friday, saturday, sunday\" constants, or an integer, specifying the first day of the week. This will affect recurrences based on weekly periods. The default week start is \"monday\" = 0.",
+            "editor": "DynamicValue",
+            "name": "week_start_day",
+            "optional": true,
+            "rank": 4,
+            "value": "text"
+        },
+        "ACd": {
+            "caption": "Count",
+            "doc": "How many occurrences will be generated.",
+            "editor": "DynamicValue",
+            "name": "count",
+            "optional": true,
+            "rank": 5,
+            "value": "number"
+        },
+        "ACe": {
+            "caption": "Until",
+            "doc": "If given, this must be a Date instance, that will specify the limit of the recurrence. If a recurrence instance happens to be the same as the Date instance given in the until argument, this will be the last occurrence.",
+            "editor": "DynamicValue",
+            "name": "until",
+            "optional": true,
+            "rank": 6,
+            "value": "date"
+        },
+        "ACf": {
+            "caption": "By Step Position",
+            "doc": "Comma separated values \"1,2,3\".  If given, it must be either an integer, or an array of integers, positive or negative. Each given integer will specify an occurrence number, corresponding to the nth occurrence of the rule inside the frequency period. For example, a bysetpos of -1 if combined with a RRule.MONTHLY frequency, and a byweekday of (RRule.MO, RRule.TU, RRule.WE, RRule.TH, RRule.FR), will result in the last work day of every month.",
+            "editor": "DynamicValue",
+            "is_list": false,
+            "name": "by_step_position",
+            "optional": true,
+            "rank": 7,
+            "value": "text"
+        },
+        "ACg": {
+            "caption": "By Month",
+            "doc": "If given, it must be either an integer, or an array of integers, meaning the months to apply the recurrence to.",
+            "editor": "DynamicValue",
+            "name": "by_month",
+            "optional": true,
+            "rank": 8,
+            "value": "text"
+        },
+        "ACh": {
+            "caption": "By Month Day",
+            "doc": "If given, it must be either an integer, or an array of integers, meaning the month days to apply the recurrence to.",
+            "editor": "DynamicValue",
+            "name": "by_month_day",
+            "optional": true,
+            "rank": 9,
+            "value": "text"
+        },
+        "ACi": {
+            "caption": "By Year Day",
+            "doc": "If given, it must be either an integer, or an array of integers, meaning the year days to apply the recurrence to.",
+            "editor": "DynamicValue",
+            "name": "by_year_day",
+            "optional": true,
+            "rank": 10,
+            "value": "text"
+        },
+        "ACj": {
+            "caption": "By Week No",
+            "doc": "If given, it must be either an integer, or an array of integers, meaning the week numbers to apply the recurrence to. Week numbers have the meaning described in ISO8601, that is, the first week of the year is that containing at least four days of the new year.",
+            "editor": "DynamicValue",
+            "name": "by_week_no",
+            "optional": true,
+            "rank": 11,
+            "value": "text"
+        },
+        "ACk": {
+            "caption": "By Hour",
+            "doc": "If given, it must be either an integer, or an array of integers, meaning the hours to apply the recurrence to.",
+            "editor": "DynamicValue",
+            "name": "by_hour",
+            "optional": true,
+            "rank": 13,
+            "value": "text"
+        },
+        "ACl": {
+            "caption": "By Minute",
+            "doc": "If given, it must be either an integer, or an array of integers, meaning the minutes to apply the recurrence to.",
+            "editor": "DynamicValue",
+            "name": "by_minute",
+            "optional": true,
+            "rank": 14,
+            "value": "text"
+        },
+        "ACm": {
+            "caption": "By Second",
+            "doc": "If given, it must be either an integer, or an array of integers, meaning the seconds to apply the recurrence to.",
+            "editor": "DynamicValue",
+            "name": "by_second",
+            "optional": true,
+            "rank": 15,
+            "value": "text"
+        },
+        "ACo": {
+            "caption": "Rule ID",
+            "doc": "An optional rule id",
+            "editor": "DynamicValue",
+            "name": "rule_id",
+            "optional": true,
+            "rank": 0,
+            "value": "text"
+        },
+        "ACx": {
+            "caption": "By Week Day",
+            "doc": "If given, it must be an integer (0 == RRule.MO), or an array of integers.  The default week start is \"monday\" = 0.",
+            "editor": "DynamicValue",
+            "name": "by_week_day",
+            "optional": true,
+            "rank": 12,
+            "value": "text"
+        }
+    }
+}

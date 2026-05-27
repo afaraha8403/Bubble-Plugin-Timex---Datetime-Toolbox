@@ -1,0 +1,13 @@
+{
+    "caption": "Remove configuration",
+    "fields": {
+        "ACq": {
+            "caption": "Rule ID",
+            "doc": "The rule id to remove",
+            "editor": "DynamicValue",
+            "name": "rule_id",
+            "rank": 0,
+            "value": "text"
+        }
+    }
+}

@@ -1,0 +1,11 @@
+{
+    "caption": "Get a slice",
+    "fields": {
+        "ADH": {
+            "caption": "This action gets date occurrences that fall between two dates",
+            "editor": "Label",
+            "name": "this_action_gets_occurances_that_fall_between_two_dates",
+            "rank": 0
+        }
+    }
+}

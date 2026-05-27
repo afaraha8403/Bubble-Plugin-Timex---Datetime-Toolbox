@@ -1,0 +1,80 @@
+{
+    "category": "plugins",
+    "display": "Convert Time to Decimal",
+    "fields": {
+        "AAx": {
+            "caption": "This action converts Hours, Minutes & Seconds to decimal notation.  For example 1 Hour 30 Mins will become 1.5 Hours",
+            "editor": "Label",
+            "name": "this_action_converts_hours,_minutes_&_seconds_to_decimal_notation.__for_example_1_hour_30_mins_will_become_1.5_hours",
+            "rank": 1
+        },
+        "AAy": {
+            "caption": "Hours",
+            "default_val": 1,
+            "doc": "Hours represented as an integer",
+            "editor": "DynamicValue",
+            "name": "hours",
+            "rank": 2,
+            "value": "number"
+        },
+        "AAz": {
+            "caption": "Minutes",
+            "default_val": 30,
+            "doc": "Minutes represented as an integer",
+            "editor": "DynamicValue",
+            "name": "minutes",
+            "rank": 3,
+            "value": "number"
+        },
+        "ABA": {
+            "caption": "Seconds",
+            "default_val": 30,
+            "doc": "Seconds represented as an integer",
+            "editor": "DynamicValue",
+            "name": "seconds",
+            "rank": 4,
+            "value": "number"
+        },
+        "ABB": {
+            "caption": "Precision",
+            "default_val": 4,
+            "doc": "The precision of the result.  Or the round off till",
+            "editor": "StaticNumber",
+            "name": "precision",
+            "rank": 5
+        },
+        "ABU": {
+            "caption": "Round to closest",
+            "default_val": 0.25,
+            "doc": "A value of 0.25 will round 1.20 to 1.25",
+            "editor": "DynamicValue",
+            "name": "round_to_closest",
+            "rank": 7,
+            "value": "number"
+        },
+        "ABV": {
+            "caption": "Round Up/Down",
+            "default_val": "Don't Round",
+            "doc": "Round decimal results",
+            "editor": "Dropdown",
+            "name": "round_updown",
+            "options": "Don't Round,Round Up,Round Down,Auto",
+            "rank": 6
+        },
+        "ABi": {
+            "caption": "Date & Time Toolkit",
+            "editor": "Label",
+            "name": "date_&_time_toolkit",
+            "rank": 0
+        }
+    },
+    "return_value": {
+        "ABC": {
+            "caption": "Output",
+            "name": "output",
+            "rank": 0,
+            "value": "number"
+        }
+    },
+    "type": "server_side"
+}
